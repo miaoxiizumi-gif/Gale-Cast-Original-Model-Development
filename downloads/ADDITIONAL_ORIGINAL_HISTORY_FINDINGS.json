@@ -1,0 +1,51 @@
+[
+  {
+    "source_line": 17311,
+    "finding": "Original September 7 diagnosis explained that a maximum over the input window counted the same event in many overlapping windows. This describes an earlier model/scorer, not the later W1 artifact.",
+    "timestamp_utc": "2026-09-07T12:18:33.799Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 18233,
+    "finding": "Original September 7 follow-up explained station-boundary crossings and why correcting a label in the scorer is different from retraining a network.",
+    "timestamp_utc": "2026-09-07T14:15:21.480Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 20834,
+    "finding": "Original September 8 discussion explicitly said the earlier model itself had learned the window-maximum label, so a training fix and retrain were needed.",
+    "timestamp_utc": "2026-09-08T10:14:27.173Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 22575,
+    "finding": "Original September 8 tool output confirms v11 reached epoch 50 and wrote its own versioned model/scaler files.",
+    "timestamp_utc": "2026-09-08T17:40:57.183Z",
+    "record_type": "user",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 24940,
+    "finding": "Original September 9 discussion describes correcting strict tuning-window construction and launching v13 with altered date-split constants.",
+    "timestamp_utc": "2026-09-09T16:20:42.824Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 25218,
+    "finding": "Original September 9 report says v13 stopped at epoch 43, best epoch 31 with validation gale loss 0.0132; also explains why raw row counts and scored-window counts differ.",
+    "timestamp_utc": "2026-09-09T17:10:47.417Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  },
+  {
+    "source_line": 28224,
+    "finding": "Original September 17 summary counts seven newly trained variants and 24 scored configurations in that staged experiment. It corrects W1/W2/W3 stopping epochs and discusses failed precision-floor rules.",
+    "timestamp_utc": "2026-09-17T09:49:35.214Z",
+    "record_type": "assistant",
+    "source": "Original September training session (local source)"
+  }
+]
