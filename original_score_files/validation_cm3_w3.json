@@ -56,13 +56,13 @@
       "mae": 50.5217,
       "rmse": 68.9494,
       "mase": 0.9891,
-      "unit": "°"
+      "unit": "\u00b0"
     },
     "wind_dir": {
       "mae": 43.4016,
       "rmse": 62.9671,
       "mase": 0.8497,
-      "unit": "°"
+      "unit": "\u00b0"
     },
     "rainfall": {
       "mae": 0.9191,

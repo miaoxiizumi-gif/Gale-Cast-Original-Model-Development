@@ -34,7 +34,7 @@
     },
     "wind_dir": {
       "display": "Wind Dir",
-      "unit": "°",
+      "unit": "\u00b0",
       "mae": 44.8605,
       "mae_ceiling": 44.182,
       "mae_pass": false,
@@ -86,13 +86,13 @@
       "mae": 44.8605,
       "rmse": 63.4114,
       "mase": 0.8782,
-      "unit": "°"
+      "unit": "\u00b0"
     },
     "unfiltered": {
       "mae": 50.5217,
       "rmse": 68.9494,
       "mase": 0.9891,
-      "unit": "°"
+      "unit": "\u00b0"
     },
     "calm_floor_ms": 1.0,
     "days_kept": 2428,
