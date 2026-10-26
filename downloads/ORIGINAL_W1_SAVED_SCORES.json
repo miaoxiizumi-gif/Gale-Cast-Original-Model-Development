@@ -1,0 +1,182 @@
+{
+  "source_branch": "exp/precision-targeting",
+  "raw_W1_original_score": {
+    "suffix": "_w3",
+    "tune_selected_threshold": 0.64,
+    "tune_f1_at_threshold": 0.8947368421052632,
+    "tune_row": {
+      "thr": 0.64,
+      "tn": 1071,
+      "fp": 2,
+      "fn": 2,
+      "tp": 17,
+      "precision": 0.8947368421052632,
+      "recall": 0.8947368421052632,
+      "f1": 0.8947368421052632
+    },
+    "test_row": {
+      "tn": 3388,
+      "fp": 7,
+      "fn": 8,
+      "tp": 20,
+      "precision": 0.7407407407407407,
+      "recall": 0.7142857142857143,
+      "f1": 0.7272727272727273
+    },
+    "pr_auc": 0.7277791504254221,
+    "fp_removed_vs_baseline": 14,
+    "tp_lost_vs_baseline": 7,
+    "hits_budget": false,
+    "alerts_per_station_year": 2.88102541630149
+  },
+  "initial_W1_X1_score": {
+    "suffix": "_w3+X1",
+    "tune_selected_threshold": 0.62,
+    "tune_f1_at_threshold": 0.9,
+    "tune_row": {
+      "tn": 1070,
+      "fp": 3,
+      "fn": 1,
+      "tp": 18,
+      "precision": 0.8571428571428571,
+      "recall": 0.9473684210526315,
+      "f1": 0.9
+    },
+    "test_row": {
+      "tn": 3388,
+      "fp": 7,
+      "fn": 8,
+      "tp": 20,
+      "precision": 0.7407407407407407,
+      "recall": 0.7142857142857143,
+      "f1": 0.7272727272727273
+    },
+    "pr_auc": 0.8302171573350975,
+    "fp_removed_vs_baseline": 14,
+    "tp_lost_vs_baseline": 7,
+    "hits_budget": false,
+    "alerts_per_station_year": 2.88102541630149
+  },
+  "locked_W1_X1_scorecard": {
+    "cm3": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        13,
+        10,
+        1
+      ],
+      [
+        6,
+        269,
+        3184
+      ]
+    ],
+    "labels": [
+      "High",
+      "Moderate",
+      "Low"
+    ],
+    "accuracy": 99.62,
+    "precision": 72.73,
+    "recall": 85.71,
+    "f1": 78.69,
+    "pr_auc": 0.8302,
+    "threshold": 0.601,
+    "tn": 3386,
+    "fp": 9,
+    "fn": 4,
+    "tp": 24,
+    "wind_high_ms": 17.2,
+    "wind_moderate_ms": 10.8,
+    "prob_high": 0.66,
+    "prob_moderate": 0.33,
+    "val_date_range": "2021-10-15 to 2024-12-31",
+    "actual_source": "processed_weather.wind_speed (real observed, m/s)",
+    "predicted_source": "gale_cast_model_multioutput_w3.keras gale_prob head + X1 (same-day cross-station mean)",
+    "source_script": "validate_model_multioutput.py",
+    "regression_metrics": {
+      "wind_speed": {
+        "mae": 0.5365,
+        "rmse": 0.7723,
+        "mase": 0.6782,
+        "unit": "m/s"
+      },
+      "humidity": {
+        "mae": 4.9453,
+        "rmse": 6.417,
+        "mase": 0.6546,
+        "unit": "%"
+      },
+      "wind_dir_all_days": {
+        "mae": 50.5217,
+        "rmse": 68.9494,
+        "mase": 0.9891,
+        "unit": "°"
+      },
+      "wind_dir": {
+        "mae": 43.4016,
+        "rmse": 62.9671,
+        "mase": 0.8497,
+        "unit": "°"
+      },
+      "rainfall": {
+        "mae": 0.9191,
+        "rmse": 1.2747,
+        "mase": 0.9415,
+        "unit": "mm"
+      },
+      "pressure": {
+        "mae": 1.2452,
+        "rmse": 1.6919,
+        "mase": 0.5793,
+        "unit": "hPa"
+      },
+      "u": {
+        "mae": 1.2385,
+        "rmse": 1.7695,
+        "mase": 0.6954,
+        "unit": "m/s"
+      },
+      "v": {
+        "mae": 1.0353,
+        "rmse": 1.4296,
+        "mase": 0.7148,
+        "unit": "m/s"
+      }
+    },
+    "wind_speed_mape": 24.1927
+  },
+  "weight_variant_probability_curves": {
+    "w3": {
+      "raw_pr_tune": 0.9062128003924779,
+      "raw_pr_test": 0.7277791504254221,
+      "x1_pr_tune": 0.9257754212119896,
+      "x1_pr_test": 0.8302171573350975,
+      "lift": 0.10243800690967542,
+      "gap_raw": 0.1784336499670558,
+      "gap_x1": 0.09555826387689215
+    },
+    "w6": {
+      "raw_pr_tune": 0.7060900066941181,
+      "raw_pr_test": 0.6402825755001175,
+      "x1_pr_tune": 0.7487246852084187,
+      "x1_pr_test": 0.7168353098477321,
+      "lift": 0.07655273434761467,
+      "gap_raw": 0.06580743119400068,
+      "gap_x1": 0.03188937536068659
+    },
+    "w10": {
+      "raw_pr_tune": 0.19447953099119938,
+      "raw_pr_test": 0.32418579787966995,
+      "x1_pr_tune": 0.25129493354297067,
+      "x1_pr_test": 0.35647435946886047,
+      "lift": 0.03228856158919052,
+      "gap_raw": -0.12970626688847056,
+      "gap_x1": -0.1051794259258898
+    }
+  }
+}

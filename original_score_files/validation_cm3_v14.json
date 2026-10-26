@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "split": "C (65/35)",
+    "model": "gale_cast_model_multioutput_v14.keras",
+    "convention": "PERMISSIVE",
+    "train": "2015-01-01..2020-07-01",
+    "tune": "2020-07-02..2021-07-01",
+    "test": ">= 2021-07-02",
+    "cutoff": 0.53,
+    "cutoff_rule": "max-F1 on tune slice, 0.01 grid"
+  },
+  "tune": {
+    "windows": 1092,
+    "gale_days": 17,
+    "best": {
+      "thr": 0.53,
+      "tn": 1064,
+      "fp": 11,
+      "fn": 9,
+      "tp": 8,
+      "precision": 0.42105263157894735,
+      "recall": 0.47058823529411764,
+      "f1": 0.4444444444444444
+    },
+    "both_80_80": []
+  },
+  "test": {
+    "windows": 3831,
+    "gale_days": 34,
+    "base_rate": 0.008874967371443488,
+    "tn": 3762,
+    "fp": 35,
+    "fn": 9,
+    "tp": 25,
+    "precision": 0.4166666666666667,
+    "recall": 0.7352941176470589,
+    "f1": 0.5319148936170213,
+    "accuracy": 0.9885147481075437,
+    "precision_ci": [
+      0.28567019400352733,
+      0.5396904761904762
+    ],
+    "recall_ci": [
+      0.5640625,
+      0.884642857142857
+    ],
+    "pr_auc": 0.5232466253925905,
+    "all_negative_accuracy": 0.9911250326285566,
+    "alerts_per_station_year": 5.724921630094044,
+    "per_station": {
+      "NAIA": {
+        "tn": 1254,
+        "fp": 11,
+        "fn": 3,
+        "tp": 9,
+        "precision": 0.45,
+        "recall": 0.75,
+        "f1": 0.5625000000000001
+      },
+      "Sangley Point": {
+        "tn": 1256,
+        "fp": 11,
+        "fn": 2,
+        "tp": 8,
+        "precision": 0.42105263157894735,
+        "recall": 0.8,
+        "f1": 0.5517241379310345
+      },
+      "Science Garden": {
+        "tn": 1252,
+        "fp": 13,
+        "fn": 4,
+        "tp": 8,
+        "precision": 0.38095238095238093,
+        "recall": 0.6666666666666666,
+        "f1": 0.4848484848484849
+      }
+    },
+    "severe_only": {
+      "tn": 3771,
+      "fp": 56,
+      "fn": 0,
+      "tp": 4,
+      "precision": 0.06666666666666667,
+      "recall": 1.0,
+      "f1": 0.125,
+      "base_rate": 0.0010441138084051162
+    },
+    "tolerance": {
+      "gale_days_covered": 34,
+      "gale_days_total": 34,
+      "strict_false_alarms_adjacent_to_real_gale": 15
+    }
+  }
+}

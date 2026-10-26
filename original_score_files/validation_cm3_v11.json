@@ -1,0 +1,116 @@
+{
+  "model": "gale_cast_model_multioutput_v11.keras",
+  "generated": "2026-09-09T03:38:30.714609",
+  "classification": {
+    "cutoff": 0.6614,
+    "cutoff_rule": "best F1 on 2020-10-15..2021-10-14 (training-adjacent, never reported on)",
+    "validation_rows": 3519,
+    "rows_lost_to_warmup": 96,
+    "predictions_made": 3423,
+    "real_gale_days": 28,
+    "tn": 3385,
+    "fp": 10,
+    "fn": 3,
+    "tp": 25,
+    "accuracy": 0.9962,
+    "precision": 0.7143,
+    "recall": 0.8929,
+    "f1": 0.7937,
+    "pr_auc": 0.8034,
+    "chance_baseline": 0.0082
+  },
+  "regression": {
+    "wind_speed": {
+      "display": "Wind Speed",
+      "unit": "km/h",
+      "mae": 1.9292,
+      "mae_ceiling": 3.8,
+      "mae_pass": true,
+      "rmse": 2.7688,
+      "rmse_ceiling": 4.16,
+      "rmse_pass": true,
+      "mase": 0.6773,
+      "mase_pass": true
+    },
+    "wind_dir": {
+      "display": "Wind Dir",
+      "unit": "°",
+      "mae": 44.8605,
+      "mae_ceiling": 44.182,
+      "mae_pass": false,
+      "rmse": 63.4114,
+      "rmse_ceiling": 63.339,
+      "rmse_pass": false,
+      "mase": 0.8782,
+      "mase_pass": true
+    },
+    "pressure": {
+      "display": "Pressure",
+      "unit": "hPa",
+      "mae": 1.2575,
+      "mae_ceiling": 2.0,
+      "mae_pass": true,
+      "rmse": 1.7213,
+      "rmse_ceiling": 3.0,
+      "rmse_pass": true,
+      "mase": 0.585,
+      "mase_pass": true
+    },
+    "humidity": {
+      "display": "Humidity",
+      "unit": "%",
+      "mae": 4.9237,
+      "mae_ceiling": 5.76,
+      "mae_pass": true,
+      "rmse": 6.4068,
+      "rmse_ceiling": 7.51,
+      "rmse_pass": true,
+      "mase": 0.6517,
+      "mase_pass": true
+    },
+    "rainfall": {
+      "display": "Rainfall",
+      "unit": "mm",
+      "mae": 0.9153,
+      "mae_ceiling": 0.98,
+      "mae_pass": true,
+      "rmse": 1.271,
+      "rmse_ceiling": 2.04,
+      "rmse_pass": true,
+      "mase": 0.9376,
+      "mase_pass": true
+    }
+  },
+  "wind_dir_detail": {
+    "calm_filtered": {
+      "mae": 44.8605,
+      "rmse": 63.4114,
+      "mase": 0.8782,
+      "unit": "°"
+    },
+    "unfiltered": {
+      "mae": 50.5217,
+      "rmse": 68.9494,
+      "mase": 0.9891,
+      "unit": "°"
+    },
+    "calm_floor_ms": 1.0,
+    "days_kept": 2428,
+    "days_removed_by_calm_filter": 995
+  },
+  "ablation_regression_threshold_baseline": {
+    "description": "Predicted wind speed + (observed last-day MSLP - predicted target-day MSLP), run through compute_gale_flag",
+    "tn": 3101,
+    "fp": 294,
+    "fn": 15,
+    "tp": 13,
+    "accuracy": 0.9097,
+    "precision": 0.0423,
+    "recall": 0.4643,
+    "f1": 0.0776,
+    "sign_check": {
+      "stored": 3.0,
+      "recomputed": 3.0
+    }
+  }
+}

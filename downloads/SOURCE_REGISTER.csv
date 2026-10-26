@@ -1,0 +1,124 @@
+﻿kind,source,role
+existing local source,galecast_v1.0.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.0.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.10.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.11.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.5.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.6.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.7.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.8.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v2.9.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.0-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.1-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.10-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.11-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.2-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.3-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.4-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.5-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.6-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.7-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.8-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v5.9-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v6.0-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v6.1-SUMMER.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v3.0.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v3.1.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v3.2.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v3.3.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.0.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.1.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.2.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.3.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.4.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.5.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.6.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.7.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_v4.8.ipynb,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_metrics.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,validation_cm3.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,train_direction_standalone.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,train_model.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,train_model_multioutput.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,validate_model.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,validate_model_multioutput.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,_train_w3.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,_w1_recall_floor.py,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,dataset_audit.log,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,galecast_thresholds_w3.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,precision_floor_w3.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,THRESHOLD_CONFIG.md,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,validation_cm3_interim_w3.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+existing local source,validation_cm3_w3.json,original model/development evidence or duplicate; source code and saved outputs need separate interpretation
+original timestamped session,Original September training session (local source),"original September launch, progress, comparisons and selection"
+exact aggregate export,variant_score_f1.json,copied from exp/precision-targeting:variant_score_f1.json
+exact aggregate export,variant_score_f1_x1.json,copied from exp/precision-targeting:variant_score_f1_x1.json
+exact aggregate export,variant_score_f2.json,copied from exp/precision-targeting:variant_score_f2.json
+exact aggregate export,variant_score_f2_x1.json,copied from exp/precision-targeting:variant_score_f2_x1.json
+exact aggregate export,variant_score_w10.json,copied from exp/precision-targeting:variant_score_w10.json
+exact aggregate export,variant_score_w10_x1.json,copied from exp/precision-targeting:variant_score_w10_x1.json
+exact aggregate export,variant_score_w3.json,copied from exp/precision-targeting:variant_score_w3.json
+exact aggregate export,variant_score_w3_x1.json,copied from exp/precision-targeting:variant_score_w3_x1.json
+exact aggregate export,variant_score_w6.json,copied from exp/precision-targeting:variant_score_w6.json
+exact aggregate export,variant_score_w6_x1.json,copied from exp/precision-targeting:variant_score_w6_x1.json
+exact aggregate export,variant_score_x1f.json,copied from exp/precision-targeting:variant_score_x1f.json
+exact aggregate export,variant_score_x1f_x1.json,copied from exp/precision-targeting:variant_score_x1f_x1.json
+exact aggregate export,variant_score_x2f.json,copied from exp/precision-targeting:variant_score_x2f.json
+exact aggregate export,variant_score_x2f_x1.json,copied from exp/precision-targeting:variant_score_x2f_x1.json
+exact aggregate export,precision_floor_w3.json,copied from exp/precision-targeting:precision_floor_w3.json
+exact aggregate export,precision_floor_w6.json,copied from exp/precision-targeting:precision_floor_w6.json
+exact aggregate export,precision_floor_w10.json,copied from exp/precision-targeting:precision_floor_w10.json
+exact aggregate export,validation_cm3_v11.json,copied from exp/precision-targeting:validation_cm3_v11.json
+exact aggregate export,validation_cm3_v12.json,copied from exp/precision-targeting:validation_cm3_v12.json
+exact aggregate export,validation_cm3_v13.json,copied from exp/precision-targeting:validation_cm3_v13.json
+exact aggregate export,validation_cm3_v14.json,copied from exp/precision-targeting:validation_cm3_v14.json
+exact aggregate export,validation_cm3_w3.json,copied from exp/precision-targeting:validation_cm3_w3.json
+exact aggregate export,galecast_thresholds_w3.json,copied from exp/precision-targeting:galecast_thresholds_w3.json
+local git object,exp/precision-targeting:experiments/w1x1/_nine_fp_analysis.py,original branch evidence; git show from project root
+local git object,exp/precision-targeting:experiments/w1x1/_train_w3.py,original branch evidence; git show from project root
+local git object,exp/precision-targeting:experiments/w1x1/_w1_recall_floor.py,original branch evidence; git show from project root
+local git object,exp/precision-targeting:full_sweep_v12.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_f1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_f2.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_v11.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_v12.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_v13.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_v14.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_w10.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_w3.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_w6.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_x1f.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:galecast_thresholds_x2f.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_6g.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_feasibility.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_postproc.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_split_c.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_step2.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:pre_registration_x_sweep.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:precision80_investigation.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:precision_floor_w10.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:precision_floor_w3.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:precision_floor_w6.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_interim_w3.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_v11.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_v12.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_v13.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_v14.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:validation_cm3_w3.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_f1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_f1_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_f2.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_f2_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w10.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w10_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w3.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w3_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w6.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_w6_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_x1f.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_x1f_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_x2f.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:variant_score_x2f_x1.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:w1_recall_floor_report.json,original branch evidence; git show from project root
+local git object,exp/precision-targeting:x_sweep_recall_floor.json,original branch evidence; git show from project root
+current local model,gale_cast_model_multioutput.keras,saved W1 bytes and embedded save date

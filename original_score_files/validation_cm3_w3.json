@@ -1,0 +1,93 @@
+{
+  "cm3": [
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      13,
+      10,
+      1
+    ],
+    [
+      6,
+      269,
+      3184
+    ]
+  ],
+  "labels": [
+    "High",
+    "Moderate",
+    "Low"
+  ],
+  "accuracy": 99.62,
+  "precision": 72.73,
+  "recall": 85.71,
+  "f1": 78.69,
+  "pr_auc": 0.8302,
+  "threshold": 0.601,
+  "tn": 3386,
+  "fp": 9,
+  "fn": 4,
+  "tp": 24,
+  "wind_high_ms": 17.2,
+  "wind_moderate_ms": 10.8,
+  "prob_high": 0.66,
+  "prob_moderate": 0.33,
+  "val_date_range": "2021-10-15 to 2024-12-31",
+  "actual_source": "processed_weather.wind_speed (real observed, m/s)",
+  "predicted_source": "gale_cast_model_multioutput_w3.keras gale_prob head + X1 (same-day cross-station mean)",
+  "source_script": "validate_model_multioutput.py",
+  "regression_metrics": {
+    "wind_speed": {
+      "mae": 0.5365,
+      "rmse": 0.7723,
+      "mase": 0.6782,
+      "unit": "m/s"
+    },
+    "humidity": {
+      "mae": 4.9453,
+      "rmse": 6.417,
+      "mase": 0.6546,
+      "unit": "%"
+    },
+    "wind_dir_all_days": {
+      "mae": 50.5217,
+      "rmse": 68.9494,
+      "mase": 0.9891,
+      "unit": "°"
+    },
+    "wind_dir": {
+      "mae": 43.4016,
+      "rmse": 62.9671,
+      "mase": 0.8497,
+      "unit": "°"
+    },
+    "rainfall": {
+      "mae": 0.9191,
+      "rmse": 1.2747,
+      "mase": 0.9415,
+      "unit": "mm"
+    },
+    "pressure": {
+      "mae": 1.2452,
+      "rmse": 1.6919,
+      "mase": 0.5793,
+      "unit": "hPa"
+    },
+    "u": {
+      "mae": 1.2385,
+      "rmse": 1.7695,
+      "mase": 0.6954,
+      "unit": "m/s"
+    },
+    "v": {
+      "mae": 1.0353,
+      "rmse": 1.4296,
+      "mase": 0.7148,
+      "unit": "m/s"
+    }
+  },
+  "wind_speed_mape": 24.1927
+}

@@ -1,0 +1,130 @@
+{
+  "model": {
+    "path": "gale_cast_model_multioutput.keras",
+    "sha256": "f2db5aa93226225405914094a0855ac725734a0e2c1a2331e3ba69a8fd9d14b0",
+    "embedded_metadata": {
+      "keras_version": "3.13.2",
+      "date_saved": "2026-09-15@16:16:46"
+    }
+  },
+  "events": [
+    {
+      "source": "Original September training session (local source)",
+      "line": 26876,
+      "event": "W-variant scripts created",
+      "timestamp_utc": "2026-09-15T07:17:09.049Z",
+      "timestamp_pht": "2026-09-15T15:17:09.049000+08:00",
+      "record_kind": "user",
+      "excerpt": "wrote _train_w3.py\nwrote _train_w6.py\nwrote _train_w10.py"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 26886,
+      "event": "W1 training launch command",
+      "timestamp_utc": "2026-09-15T07:17:28.961Z",
+      "timestamp_pht": "2026-09-15T15:17:28.961000+08:00",
+      "record_kind": "assistant",
+      "excerpt": "Launch W1 (negative-class weight x3) training run in background"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 26908,
+      "event": "Training data and first epoch output",
+      "timestamp_utc": "2026-09-15T07:17:48.119Z",
+      "timestamp_pht": "2026-09-15T15:17:48.119000+08:00",
+      "record_kind": "user",
+      "excerpt": "Combined training set: 78955 rows (real: 9567, luzon_supplementary: 69388)\nTrain sequences: (78219, 32, 32)\nTraining chunks built      : 78219\nTraining chunks marked gale: 1133\nTraining gale rate         : 1.45%  (expect ~1.5-2%, not 36.9%)\n Trainable params: 40,872 (159.66 KB)\n Non-trainable params: 0 (0.00 B)\nEpoch 1/50"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 26953,
+      "event": "Training completion output; last epoch 49",
+      "timestamp_utc": "2026-09-15T08:17:12.039Z",
+      "timestamp_pht": "2026-09-15T16:17:12.039000+08:00",
+      "record_kind": "user",
+      "excerpt": "--- checking terminal markers ---\n64103:✅ Training complete!\n--- last epoch summary lines ---\n55831:Epoch 45/50\n57484:Epoch 46/50\n59138:Epoch 47/50\n60794:Epoch 48/50\n62448:Epoch 49/50\n   Model  → gale_cast_model_multioutput_w3.keras\n\n   Scaler → scaler_X_normal_mo_w3.save\n\n   Scaler → scaler_X_anomaly_mo_w3.save\n\n   Scaler → scaler_y_regression_mo_w3.save\n\n   Outputs: gale_prob (sigmoid) | weather_vars (wind, humidity, dir, rain, pressure)\n\n   Loss: Focal (gamma=2.0, alpha=0.75) on gale_prob | MSE (weight=0.3) on weather_vars\n\n   Trained on : real data + Luzon supplementary gale augmentation\n\n   Validated on: real data only\n\n✅ galecast_thresholds_w3.json written (versioned -- the live galecast_thresholds.json was left untouched)\n\nGALECAST_SHOW_GUI not set — skipping the Tkinter normalized-data popup (default)."
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 26963,
+      "event": "Saved model and scaler timestamps with +0800 timezone",
+      "timestamp_utc": "2026-09-15T08:17:17.962Z",
+      "timestamp_pht": "2026-09-15T16:17:17.962000+08:00",
+      "record_kind": "user",
+      "excerpt": "-rw-r--r-- 1 Courtney 197121 571546 2026-09-15 16:16:46.778250800 +0800 gale_cast_model_multioutput_w3.keras\n-rw-r--r-- 1 Courtney 197121    223 2026-09-15 16:16:46.781508400 +0800 galecast_thresholds_w3.json\n-rw-r--r-- 1 Courtney 197121   2601 2026-09-15 15:17:41.879392000 +0800 scaler_X_anomaly_mo_w3.save\n-rw-r--r-- 1 Courtney 197121   4289 2026-09-15 15:17:41.877374700 +0800 scaler_X_normal_mo_w3.save\n-rw-r--r-- 1 Courtney 197121    903 2026-09-15 15:17:42.306309900 +0800 scaler_y_regression_mo_w3.save\navailable: 0.67GB"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 27038,
+      "event": "First original W1 score, 15 September",
+      "timestamp_utc": "2026-09-15T08:19:28.418Z",
+      "timestamp_pht": "2026-09-15T16:19:28.418000+08:00",
+      "record_kind": "user",
+      "excerpt": "---\n-rw-r--r-- 1 Courtney 197121 664 2026-09-15 16:19:21.498287100 +0800 variant_score_w3.json\n---\n  thr=0.76  TN= 992 FP=   0 FN=  7 TP=  0  P=0.000  R=0.000  F1=0.000\n  thr=0.81  TN= 992 FP=   0 FN=  7 TP=  0  P=0.000  R=0.000  F1=0.000\n  thr=0.86  TN= 992 FP=   0 FN=  7 TP=  0  P=0.000  R=0.000  F1=0.000\n  thr=0.91  TN= 992 FP=   0 FN=  7 TP=  0  P=0.000  R=0.000  F1=0.000\n  thr=0.96  TN= 992 FP=   0 FN=  7 TP=  0  P=0.000  R=0.000  F1=0.000\n  Any TUNE cutoff with precision AND recall >= 0.80? NO\nTUNE (permissive): 1092 windows, 19 gale days\nTEST (strict, canonical): 3423 windows, 28 gale days\n\nSTAGE 1/2/3 SCORER -- suffix=_w3\n  TUNE-selected threshold (max-F1, largest among ties): 0.64  (TUNE F1=0.8947)\n  TUNE @ 0.64: TN=1071 FP=2 FN=2 TP=17  P=0.8947  R=0.8947  F1=0.8947\n\n  TEST @ 0.64 (scored once): TN=3388 FP=7 FN=8 TP=20\n  Precision=0.7407  Recall=0.7143  F1=0.7273  PR-AUC=0.7278\n  vs v12+X1 baseline (FP=21,TP=27): FP removed=14  TP lost=7\n  Budget check (need FP<=5-7 with TP>=23): MISS\n  Alerts per station-year: 2.88  (total alerts=27 over 9.37 station-years)\n\nWrote variant_score_w3.json"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 27816,
+      "event": "W1+X1 score, 17 September",
+      "timestamp_utc": "2026-09-17T08:22:27.604Z",
+      "timestamp_pht": "2026-09-17T16:22:27.604000+08:00",
+      "record_kind": "user",
+      "excerpt": "  TEST @ 0.64 (scored once): TN=3388 FP=7 FN=8 TP=20\n  Precision=0.7407  Recall=0.7143  F1=0.7273  PR-AUC=0.7278\nWrote variant_score_w3.json\nSTAGE 4 -- _w3+X1 (cross-station mean)\n  TUNE-selected threshold: 0.62  (TUNE F1=0.9000)\n  TUNE @ 0.62: {'tn': 1070, 'fp': 3, 'fn': 1, 'tp': 18, 'precision': np.float64(0.8571428571428571), 'recall': np.float64(0.9473684210526315), 'f1': np.float64(0.9)}\n  TEST @ 0.62 (scored once): TN=3388 FP=7 FN=8 TP=20\n  Precision=0.7407  Recall=0.7143  F1=0.7273  PR-AUC=0.8302\nWrote variant_score_w3_x1.json"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 27984,
+      "event": "Recall-floor result file timestamp",
+      "timestamp_utc": "2026-09-17T08:42:48.160Z",
+      "timestamp_pht": "2026-09-17T16:42:48.160000+08:00",
+      "record_kind": "user",
+      "excerpt": "---\n-rw-r--r-- 1 Courtney 197121 6548 2026-09-17 16:42:05.669528600 +0800 w1_recall_floor_report.json"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 27988,
+      "event": "Recall-floor scorer output",
+      "timestamp_utc": "2026-09-17T08:43:14.297Z",
+      "timestamp_pht": "2026-09-17T16:43:14.297000+08:00",
+      "record_kind": "user",
+      "excerpt": "PART 1 -- W1 + X1: does the lift transfer?\n  W1 raw PR-AUC:  TEST=0.7278  TUNE=0.9062\n  W1+X1 PR-AUC:   TEST=0.8302  TUNE=0.9258\n  X1 lift on W1 (this run):         +0.1024\nPART 2 -- recall-floor re-tune\n  TUNE non-gale=1073  TEST non-gale=3395  scale factor=3.1640\n--- W1_raw ---\n  R-FP12: thr=0.615  TUNE(fp_scaled=9.49, P=0.8500, R=0.8947)\n    TEST: TN=3386 FP=9 FN=7 TP=21  Acc=0.9953  P=0.7000 [0.521695652173913,0.8571428571428571]  R=0.7500 [0.5713095238095238,0.9047619047619048]  F1=0.7241  gales_caught=21/28\n  R-FP10: thr=0.615  TUNE(fp_scaled=9.49, P=0.8500, R=0.8947)\n    TEST: TN=3386 FP=9 FN=7 TP=21  Acc=0.9953  P=0.7000 [0.521695652173913,0.8571428571428571]  R=0.7500 [0.5713095238095238,0.9047619047619048]  F1=0.7241  gales_caught=21/28\n  R-REC85: thr=0.636  TUNE(fp_scaled=6.33, P=0.8947, R=0.8947)\n    TEST: TN=3388 FP=7 FN=8 TP=20  Acc=0.9956  P=0.7407 [0.5652173913043478,0.9047619047619048]  R=0.7143 [0.5333333333333333,0.875]  F1=0.7273  gales_caught=20/28\n--- W1_X1 ---\n  R-FP12: thr=0.601  TUNE(fp_scaled=9.49, P=0.8571, R=0.9474)\n    TEST: TN=3386 FP=9 FN=4 TP=24  Acc=0.9962  P=0.7273 [0.5713320463320463,0.8684847198641763]  R=0.8571 [0.7142857142857143,0.967741935483871]  F1=0.7869  gales_caught=24/28\n  R-FP10: thr=0.601  TUNE(fp_scaled=9.49, P=0.8571, R=0.9474)\n    TEST: TN=3386 FP=9 FN=4 TP=24  Acc=0.9962  P=0.7273 [0.5713320463320463,0.8684847198641763]  R=0.8571 [0.7142857142857143,0.967741935483871]  F1=0.7869  gales_caught=24/28\n  R-REC85: thr=0.601  TUNE(fp_scaled=9.49, P=0.8571, R=0.9474)\n    TEST: TN=3386 FP=9 FN=4 TP=24  Acc=0.9962  P=0.7273 [0.5713320463320463,0.8684847198641763]  R=0.8571 [0.7142857142857143,0.967741935483871]  F1=0.7869  gales_caught=24/28\nPART 3 -- trade curve (TEST, minimum FP to reach each TP)\n  W1 raw:\n  W1+X1:\n  W1 raw (max-F1, Stage 1)            TP= 20 FP=  7  miss\n  W1+X1 (max-F1, Stage 4)             TP= 20 FP=  7  miss\n  W1_raw R-FP12                       TP= 21 FP=  9  miss\n  W1_raw R-FP10                       TP= 21 FP=  9  miss\n  W1_raw R-REC85                      TP= 20 FP=  7  miss\n  W1_X1 R-FP12                        TP= 24 FP=  9  HIT\n  W1_X1 R-FP10                        TP= 24 FP=  9  HIT\n  W1_X1 R-REC85                       TP= 24 FP=  9  HIT\n  TN+FP=3395 (fixed, TEST has exactly 3395 non-gale windows).\nWrote w1_recall_floor_report.json (scratch report only)"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 28055,
+      "event": "Original model comparison table",
+      "timestamp_utc": "2026-09-17T09:01:20.603Z",
+      "timestamp_pht": "2026-09-17T17:01:20.603000+08:00",
+      "record_kind": "user",
+      "excerpt": "W1 (neg-wt x3)                           3388    7    8   20    99.56     74.07   71.43  0.7273  0.7278\nW1 (neg-wt x3)+X1                        3388    7    8   20    99.56     74.07   71.43  0.7273  0.8302\nW2 (neg-wt x6)                           3372   23    7   21    99.12     47.73   75.00  0.5833  0.6403\nW2 (neg-wt x6)+X1                        3385   10    8   20    99.47     66.67   71.43  0.6897  0.7168\nW3 (neg-wt x10)                          3383   12   21    7    99.04     36.84   25.00  0.2979  0.3242\nW3 (neg-wt x10)+X1                       3395    0   25    3    99.27    100.00   10.71  0.1935  0.3565\nW1 raw, recall-floor R-FP12/R-FP10       3386    9    7   21    99.53     70.00   75.00  0.7241  0.7278\nW1 raw, recall-floor R-REC85             3388    7    8   20    99.56     74.07   71.43  0.7273  0.7278\nW1+X1, recall-floor (all 3 rules)        3386    9    4   24    99.62     72.73   85.71  0.7869  0.8302"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 28072,
+      "event": "W1/W2/W3 epoch counts and model save timestamps",
+      "timestamp_utc": "2026-09-17T09:25:30.953Z",
+      "timestamp_pht": "2026-09-17T17:25:30.953000+08:00",
+      "record_kind": "user",
+      "excerpt": "=== _w3 ===\n49\n62448:Epoch 49/50\n=== _w6 ===\n35\n47086:Epoch 35/50\n=== _w10 ===\n19\n23025:Epoch 19/50\n-rw-r--r-- 1 Courtney 197121 571546 2026-09-15 17:31:30.600281300 +0800 gale_cast_model_multioutput_w10.keras\n-rw-r--r-- 1 Courtney 197121 571546 2026-09-15 16:16:46.778250800 +0800 gale_cast_model_multioutput_w3.keras\n-rw-r--r-- 1 Courtney 197121 571546 2026-09-15 17:06:02.741180400 +0800 gale_cast_model_multioutput_w6.keras"
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 28224,
+      "event": "Original correction of epoch report and W2/W3 comparison",
+      "timestamp_utc": "2026-09-17T09:49:35.214Z",
+      "timestamp_pht": "2026-09-17T17:49:35.214000+08:00",
+      "record_kind": "assistant",
+      "excerpt": "**Correction first:** as flagged, W2 and W3 already existed from the earlier Stage 1 run (never actually abandoned — the \"stop if W1 *and* W2 both reduce PR-AUC\" rule didn't trigger since W1 improved PR-AUC, so I ran all three then). No retraining was needed; all work below is diagnostics on the existing `_w6`/`_w10` models. One correction to my own earlier reporting: **W1 did NOT run the full 50 epochs as I stated before** — checking the logs now shows it stopped at epoch 49 (best epoch 37, patience 12 exhausted: 37+12=49). W2 stopped at epoch 35 (best epoch 23). W3 stopped at epoch 19 (best epoch 7). All three genuinely triggered EarlyStopping."
+    },
+    {
+      "source": "Original September training session (local source)",
+      "line": 28983,
+      "event": "Original W1 configuration lock commit",
+      "timestamp_utc": "2026-09-17T15:17:13.897Z",
+      "timestamp_pht": "2026-09-17T23:17:13.897000+08:00",
+      "record_kind": "user",
+      "excerpt": "[exp/precision-targeting f212f26] feat(audit): lock w1+x1, recall-floor (all 3 rules) as primary model (PR-AUC 0.8302, Recall 85.71%, thr=0.601)\n 90 files changed, 13162 insertions(+), 87 deletions(-)\n create mode 100644 THRESHOLD_CONFIG.md\n create mode 100644 experiments/w1x1/_nine_fp_analysis.py\n create mode 100644 experiments/w1x1/_train_w3.py\n create mode 100644 experiments/w1x1/_w1_recall_floor.py\n create mode 100644 full_sweep_v12.json\n create mode 100644 gale_cast_model_multioutput_f1.keras\n create mode 100644 gale_cast_model_multioutput_f2.keras\n create mode 100644 gale_cast_model_multioutput_v11.keras\n create mode 100644 gale_cast_model_multioutput_v12.keras\n create mode 100644 gale_cast_model_multioutput_v13.keras\n create mode 100644 gale_cast_model_multioutput_v14.keras\n create mode 100644 gale_cast_model_multioutput_w10.keras\n create mode 100644 gale_cast_model_multioutput_w3.keras\n create mode 100644 gale_cast_model_multioutput_w6.keras\n create mode 100644 gale_cast_model_multioutput_x1f.keras\n create mode 100644 galecast_thresholds_f1.json\n create mode 100644 galecast_thresholds_f2.json\n create mode 100644 galecast_thresholds_v11.json\n create mode 100644 galecast_thresholds_v12.json\n create mode 100644 galecast_thresholds_v13.json\n create mode 100644 galecast_thresholds_v14.json\n create mode 100644 galecast_thresholds_w10.json\n create mode 100644 galecast_thresholds_w3.json\n create mode 100644 galecast_thresholds_w6.json\n create mode 100644 galecast_thresholds_x1f.json\n create mode 100644 nine_fp_report.json\n create mode 100644 part5_v11_x1.json\n create mode 100644 postproc_scan_v12.json\n create mode 100644 pre_registration_6g.json\n create mode 100644 pre_registration_feasibility.json\n create mode 100644 pre_registration_postproc.json\n create mode 100644 pre_registration_split_c.json\n create mode 100644 pre_registration_step2.json\n create mode 100644 pre_registration_x_sweep.json\n create mode 100644 precision80_investigation.json\n create mode 100644 precision_floor_w10.json\n create mode 100644 precision_floor_w3.json\n create mode 100644 precision_floor_w6.json\n create mode 100644 scaler_X_anomaly_mo_f1.save\n create mode 100644 scaler_X_anomaly_mo_f2.save\n create mode 100644 scaler_X_anomaly_mo_v11.save\n create mode 100644 scaler_X_anomaly_mo_v12.save\n create mode 100644 scaler_X_anomaly_mo_v13.save\n create mode 100644 scaler_X_anomaly_mo_v14.save\n create mode 100644 scaler_X_anomaly_mo_w10.save\n create mode 100644 scaler_X_anomaly_mo_w3.save\n create mode 100644 scaler_X_anomaly_mo_w6.save\n create mode 100644 scaler_X_anomaly_mo_x1f.save\n create mode 100644 scaler_X_normal_mo_f1.save\n create mode 100644 scaler_X_normal_mo_f2.save\n create mode 100644 scaler_X_normal_mo_v11.save\n create mode 100644 scaler_X_normal_mo_v12.save\n create mode 100644 scaler_X_normal_mo_v13.save\n create mode 100644 scaler_X_normal_mo_v14.save\n create mode 100644 scaler_X_normal_mo_w10.save\n create mode 100644 scaler_X_normal_mo_w3.save\n create mode 100644 scaler_X_normal_mo_w6.save\n create mode 100644 scaler_X_normal_mo_x1f.save\n create mode 100644 scaler_y_regression_mo_f1.save\n create mode 100644 scaler_y_regression_mo_f2.save\n create mode 100644 scaler_y_regression_mo_v11.save\n create mode 100644 scaler_y_regression_mo_v12.save\n create mode 100644 scaler_y_regression_mo_v13.save\n create mode 100644 scaler_y_regression_mo_v14.save\n create mode 100644 scaler_y_regression_mo_w10.save\n create mode 100644 scaler_y_regression_mo_w3.save\n create mode 100644 scaler_y_regression_mo_w6.save\n create mode 100644 scaler_y_regression_mo_x1f.save\n create mode 100644 table2_rebuild.json\n create mode 100644 validation_cm3_v11.json\n create mode 100644 validation_cm3_v12.json\n create mode 100644 validation_cm3_v13.json\n create mode 100644 validation_cm3_v14.json\n create mode 100644 variant_score_f1.json\n create mode 100644 variant_score_f1_x1.json\n create mode 100644 variant_score_f2.json\n create mode 100644 variant_score_f2_x1.json\n create mode 100644 variant_score_w10.json\n create mode 100644 variant_score_w10_x1.json\n create mode 100644 variant_score_w3.json\n create mode 100644 variant_score_w3_x1.json\n create mode 100644 variant_score_w6.json\n create mode 100644 variant_score_w6_x1.json\n create mode 100644 variant_score_x1f.json\n create mode 100644 variant_score_x1f_x1.json\n create mode 100644 variant_score_x2f.json\n create mode 100644 variant_score_x2f_x1.json\n create mode 100644 w1_recall_floor_report.json\n create mode 100644 x_sweep_recall_floor.json"
+    }
+  ],
+  "method": "Static reading of original September session; selected excerpts only; no later benchmarking or model execution."
+}

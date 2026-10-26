@@ -1,0 +1,28 @@
+{
+  "suffix": "_w10+X1",
+  "tune_selected_threshold": 0.58,
+  "tune_f1_at_threshold": 0.35294117647058826,
+  "tune_row": {
+    "tn": 1064,
+    "fp": 9,
+    "fn": 13,
+    "tp": 6,
+    "precision": 0.4,
+    "recall": 0.3157894736842105,
+    "f1": 0.35294117647058826
+  },
+  "test_row": {
+    "tn": 3395,
+    "fp": 0,
+    "fn": 25,
+    "tp": 3,
+    "precision": 1.0,
+    "recall": 0.10714285714285714,
+    "f1": 0.19354838709677416
+  },
+  "pr_auc": 0.35647435946886047,
+  "fp_removed_vs_baseline": 21,
+  "tp_lost_vs_baseline": 24,
+  "hits_budget": false,
+  "alerts_per_station_year": 0.32011393514461
+}

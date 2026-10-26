@@ -1,0 +1,9 @@
+{
+  "wind_high_ms": 17.2,
+  "wind_moderate_ms": 10.8,
+  "pressure_high_hpa": 6.0,
+  "pressure_moderate_hpa": 3.0,
+  "prob_high": 0.66,
+  "prob_moderate": 0.33,
+  "source": "process_weather.py canonical thresholds"
+}

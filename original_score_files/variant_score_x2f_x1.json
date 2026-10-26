@@ -1,0 +1,28 @@
+{
+  "suffix": "_x2f+X1",
+  "tune_selected_threshold": 0.69,
+  "tune_f1_at_threshold": 0.6428571428571429,
+  "tune_row": {
+    "tn": 1073,
+    "fp": 0,
+    "fn": 10,
+    "tp": 9,
+    "precision": 1.0,
+    "recall": 0.47368421052631576,
+    "f1": 0.6428571428571429
+  },
+  "test_row": {
+    "tn": 3393,
+    "fp": 2,
+    "fn": 24,
+    "tp": 4,
+    "precision": 0.6666666666666666,
+    "recall": 0.14285714285714285,
+    "f1": 0.23529411764705882
+  },
+  "pr_auc": 0.4734402971715002,
+  "fp_removed_vs_baseline": 19,
+  "tp_lost_vs_baseline": 23,
+  "hits_budget": false,
+  "alerts_per_station_year": 0.64022787028922
+}

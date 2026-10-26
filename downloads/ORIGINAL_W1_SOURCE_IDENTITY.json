@@ -1,0 +1,32 @@
+[
+  {
+    "path": "THRESHOLD_CONFIG.md",
+    "branch_reference": "exp/precision-targeting:THRESHOLD_CONFIG.md",
+    "sha256": "ad0db7f12955c8e18b8c3cc35dff7f88c5914b52558b501703219eb0dd65b790",
+    "identical_to_git_object": true
+  },
+  {
+    "path": "_train_w3.py",
+    "branch_reference": "exp/precision-targeting:experiments/w1x1/_train_w3.py",
+    "sha256": "67beae06776100ffc0b7d5fa854f6bf7567bf423fd280d5ff729c64c92d8dc65",
+    "identical_to_git_object": true
+  },
+  {
+    "path": "_w1_recall_floor.py",
+    "branch_reference": "exp/precision-targeting:experiments/w1x1/_w1_recall_floor.py",
+    "sha256": "796de5ec869d6c34962b298ed088f3373d360b454663b9b252ea60190aebd488",
+    "identical_to_git_object": true
+  },
+  {
+    "path": "precision_floor_w3.json",
+    "branch_reference": "exp/precision-targeting:precision_floor_w3.json",
+    "sha256": "ea3b64d49e44075d2645b2df110be24fb27c6f5f511f7da41828b04cca3839f8",
+    "identical_to_git_object": true
+  },
+  {
+    "path": "galecast_thresholds_w3.json",
+    "branch_reference": "exp/precision-targeting:galecast_thresholds_w3.json",
+    "sha256": "a531fc53fdd08fe12e17e74c41ec47f0eaf8c6a8ec39e95dc66bc1f150de3bb0",
+    "identical_to_git_object": true
+  }
+]

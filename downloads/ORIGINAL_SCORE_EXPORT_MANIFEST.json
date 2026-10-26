@@ -1,0 +1,117 @@
+[
+  {
+    "file": "variant_score_f1.json",
+    "git_source": "exp/precision-targeting:variant_score_f1.json",
+    "sha256": "a7dc4c7349515289b7a37094b447c8dc21aac71192682caefea08761f21a9082"
+  },
+  {
+    "file": "variant_score_f1_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_f1_x1.json",
+    "sha256": "235fe8e64b2f2e9071d66c17cadf8e238d07d930242161bdb3934a21bdf581e1"
+  },
+  {
+    "file": "variant_score_f2.json",
+    "git_source": "exp/precision-targeting:variant_score_f2.json",
+    "sha256": "426cf5e4cf25d187db50e3ab1257ae78f87932ea87abf46eb797cdd9fb5c95e9"
+  },
+  {
+    "file": "variant_score_f2_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_f2_x1.json",
+    "sha256": "f7a982c014bf04ad186696b62285bbed316bc68e2056df0d9a4628dd682412bf"
+  },
+  {
+    "file": "variant_score_w10.json",
+    "git_source": "exp/precision-targeting:variant_score_w10.json",
+    "sha256": "f830695505eeb88b155fa503eb43fcf33755b73373e6eca8a032b1a818863866"
+  },
+  {
+    "file": "variant_score_w10_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_w10_x1.json",
+    "sha256": "d2174988c29886c0508a684fd77acbfc158f653e725ca21801f9451dfcc71e45"
+  },
+  {
+    "file": "variant_score_w3.json",
+    "git_source": "exp/precision-targeting:variant_score_w3.json",
+    "sha256": "ff7f1b163e0d869c6b7bf18ff22c8490ad23acf5f5e1a690b9abe1fc576c3de5"
+  },
+  {
+    "file": "variant_score_w3_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_w3_x1.json",
+    "sha256": "e55981070ab953e75062bfcc4c1a6f200e0461473205f9cfa72262fbd7a36fee"
+  },
+  {
+    "file": "variant_score_w6.json",
+    "git_source": "exp/precision-targeting:variant_score_w6.json",
+    "sha256": "66ae84f67362cf5bc3fa77ff7a15653fbf11f83eb58dec0842bac9cc117acce3"
+  },
+  {
+    "file": "variant_score_w6_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_w6_x1.json",
+    "sha256": "cd549a081ac2e8addd1cce9a1ac6e796cd34a4292c7f55e1e107b0f2569f675c"
+  },
+  {
+    "file": "variant_score_x1f.json",
+    "git_source": "exp/precision-targeting:variant_score_x1f.json",
+    "sha256": "b6c78cb16a3dec2be91e754f7a06d72ff190fcbd713bf780f6bb28ca0c6e9d88"
+  },
+  {
+    "file": "variant_score_x1f_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_x1f_x1.json",
+    "sha256": "4a22760487bfbb5ce5de6456ea812aeaae82c5550245ac97e99da12c269f17c5"
+  },
+  {
+    "file": "variant_score_x2f.json",
+    "git_source": "exp/precision-targeting:variant_score_x2f.json",
+    "sha256": "c9acbf216fe998d23c8ef7bd14fe7991c731f83f13c73d5fd45c0517e1b19f3a"
+  },
+  {
+    "file": "variant_score_x2f_x1.json",
+    "git_source": "exp/precision-targeting:variant_score_x2f_x1.json",
+    "sha256": "b52d788f4764d85624d55efd0d2b6c1bff6bb5a6197d307115625232ed4537b1"
+  },
+  {
+    "file": "precision_floor_w3.json",
+    "git_source": "exp/precision-targeting:precision_floor_w3.json",
+    "sha256": "ea3b64d49e44075d2645b2df110be24fb27c6f5f511f7da41828b04cca3839f8"
+  },
+  {
+    "file": "precision_floor_w6.json",
+    "git_source": "exp/precision-targeting:precision_floor_w6.json",
+    "sha256": "47c425686f520b2b311ef7d68da1e34131a9b5f063c13a96f5c49fc2e31d9637"
+  },
+  {
+    "file": "precision_floor_w10.json",
+    "git_source": "exp/precision-targeting:precision_floor_w10.json",
+    "sha256": "1e825b6ca7e9b0d12754033fc45703a65ef4e436467872015e2b1654a49a3013"
+  },
+  {
+    "file": "validation_cm3_v11.json",
+    "git_source": "exp/precision-targeting:validation_cm3_v11.json",
+    "sha256": "ea3d0e26ff9ddea5edbc9d8d00e0a1cb3346fcab6a7c314ffa5fa1a69262fcb4"
+  },
+  {
+    "file": "validation_cm3_v12.json",
+    "git_source": "exp/precision-targeting:validation_cm3_v12.json",
+    "sha256": "3003a4fa4d9905966f428c214a2839f427f2fc8980121f7cf2eff9f95fd3eb2d"
+  },
+  {
+    "file": "validation_cm3_v13.json",
+    "git_source": "exp/precision-targeting:validation_cm3_v13.json",
+    "sha256": "c50c03b25b50be766425f92bb54dad77ebeeead9ab518b9e71e3de38bd788e53"
+  },
+  {
+    "file": "validation_cm3_v14.json",
+    "git_source": "exp/precision-targeting:validation_cm3_v14.json",
+    "sha256": "af0b53182e9e54dbb88c8bafdf1155763eed2c3e90582ac6ab45c37231d12268"
+  },
+  {
+    "file": "validation_cm3_w3.json",
+    "git_source": "exp/precision-targeting:validation_cm3_w3.json",
+    "sha256": "31709caed210f23d5e9ca66a9b7d238a0e43b96f75d80309d2cc7da2935f8d3a"
+  },
+  {
+    "file": "galecast_thresholds_w3.json",
+    "git_source": "exp/precision-targeting:galecast_thresholds_w3.json",
+    "sha256": "a531fc53fdd08fe12e17e74c41ec47f0eaf8c6a8ec39e95dc66bc1f150de3bb0"
+  }
+]
